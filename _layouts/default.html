@@ -8,6 +8,23 @@
 
   {{ content }}
 
+<!-- 多说评论框 start -->
+	<div class="ds-thread" {% if page.id %} data-thread-key="{{ page.id }}" {% endif %} data-title="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}" data-url="{{ site.baseurl }}{{ page.url }}"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"happygit"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- 多说公共JS代码 end -->
+
 <script type="text/javascript">
 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
 document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F48317947dc6ee0b01648f7a75e6f451c' type='text/javascript'%3E%3C/script%3E"));
