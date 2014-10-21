@@ -17,7 +17,7 @@ title: 使用SMO导出sql server 2008 R2数据库的架构与脚本
 
 - Scripter.Options.Dri*选项有什么含义？例如scripter.Options.DriIndexes和scripter.Options.Indexes有什么区别？
 
-![SMO_Scripter]({{ site.baseurl }}images/SMO_Scripter.jpg)
+![SMO_Scripter](/images/SMO_Scripter.jpg)
 
 ## 参考资料
 
